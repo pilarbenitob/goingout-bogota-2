@@ -687,7 +687,7 @@ font-size: 25px;
     border-radius: 20px;;
 }
 
-.photo-text{
+.photo-slider .photo-text{
     position: absolute;
     color: white;
     left: 6%;
