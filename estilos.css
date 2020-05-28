@@ -594,3 +594,378 @@ font-size: 25px;
     width: 100%;
     border-radius: 20px;   
 }
+
+
+/*REPRODUCTOR - MEDIA PLAYER */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+body {
+  font-family: Arial;
+  font-size: 13px;
+  line-height: 1.5em;
+  color: #fff;
+  background: #665266; /* Old browsers */
+}
+
+.clearfix { clear: both; }
+
+#container {
+  width: 330px;
+  min-height: 400px;
+  background: -webkit-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* FF3.6+ */
+  background: -ms-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* IE10 */
+  background: -o-linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* Opera 11.10+ */
+  background: linear-gradient(90deg, #1F1C2C 10%, #928DAB 90%); /* W3C */
+  overflow: auto;
+  margin: 150px auto;
+  border-radius: 13px;
+  box-shadow: 0 10px 8px -8px #333;
+}
+
+#audio-image {
+  position: relative;
+  overflow: hidden;
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+#audio-image .cover { width: 100%; }
+
+#audio-info { text-align: center; }
+
+#audio-info .artist { font-weight: bold; }
+
+input#volume {
+  width: 95%;
+  margin-left: 2%;
+  -webkit-appearance: none !important;
+  background: #ccc;
+  height: 1px;
+  margin-bottom: 20px;
+}
+input#volume::-webkit-slider-thumb {
+ -webkit-appearance:none !important;
+ background:url(../images/knob.png) no-repeat;
+ height:12px;
+ width:12px;
+}
+
+#buttons {
+  width: 90%;
+  display: block;
+  margin: 15px auto;
+  margin-left: 23px;
+  overflow: auto;
+}
+
+button#play {
+  width: 70px;
+  height: 70px;
+  background: url(../images/play.png) no-repeat;
+  float: left;
+  margin-left: -2px;
+}
+
+button#pause {
+  width: 70px;
+  height: 70px;
+  background: url(../images/pause.png) no-repeat;
+  float: left;
+  margin-left: -2px;
+}
+
+button#stop {
+  width: 70px;
+  height: 70px;
+  background: url(../images/stop.png) no-repeat;
+  float: left;
+  margin-left: 3px;
+}
+
+button#prev {
+  width: 70px;
+  height: 70px;
+  background: url(../images/prev.png) no-repeat;
+  float: left;
+  margin-top: 15px;
+}
+
+button#next {
+  width: 70px;
+  height: 70px;
+  background: url(../images/next.png) no-repeat;
+  float: right;
+  margin-top: 15px;
+}
+
+#tracker {
+  position: relative;
+  width: 100%;
+}
+
+#progress-bar {
+  width: 80%;
+  margin-left: 2%;
+  margin-bottom: 20px;
+  margin-top: 9px;
+  height: 10px;
+  background: url(../images/progress_bg.png) no-repeat;
+  float: left;
+}
+
+#progress {
+  background: url(../images/progress.png) no-repeat;
+  height: 10px;
+  display: inline-block;
+}
+
+#duration {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  padding: 4px 8px;
+  background: #000;
+  border-radius: 5px;
+}
+
+#playlist { list-style: none; }
+
+#playlist li {
+  cursor: pointer;
+  margin: 5px;
+}
+
+#playlist li.active {
+  font-weight: bold;
+  padding: 3px;
+  background: #666;
+}
+
+
+/* TWERK */
+
+.page-content{
+    background-color: white
+}
+
+.navbar-inner{
+    background-color: black;
+
+}
+
+.title{
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.title a{
+    color: white;
+}
+
+.toolbar-inner{
+    background-color: black;
+}
+
+.toolbar-inner a{
+    color: white;
+}
+
+.image-cover{
+    background-image: url(../images/cover-1.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    box-shadow: 1px 6px 10px -3px rgba(3, 3, 3, 0.55);
+    position: relative;
+}
+
+
+.text-cover{
+    position: absolute;
+    top:30%;
+    color:white;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    text-align: center;
+    /*font-family: 'kumbh_sansregular';*/
+    line-height: 4px;
+    color:white;
+}
+
+.text-cover h3{
+    font-size: 30px;
+}
+
+.text-cover h5{
+    font-size: 18px;
+}
+
+.first-text{
+    padding: 20px 30px;
+}
+
+.first-text P{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+
+.demo-swiper .swiper-slide {
+  font-size: 25px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  color: #000;
+}
+.demo-swiper .swiper-slide {
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+.demo-swiper {
+  margin: 0px 0 35px;
+  font-size: 18px;
+  height: 120px;
+
+}
+.demo-swiper.demo-swiper-auto .swiper-slide {
+  width: 85%;
+
+}
+
+.swiper-slide img {
+  width: 100%;
+    border-radius: 20px;;
+}
+
+.photo-text{
+    position: absolute;
+    color: white;
+    left: 6%;
+
+}
+
+.photo-slider{
+    background-color: #ea95be;
+    height: 260px;
+    padding: 5px 0px;
+}
+
+.title-slide{
+    color:white;
+    text-align: center;
+    line-height: 1px;
+    margin-bottom: 30px;
+
+}
+
+.title-slide h3{
+    font-size: 30px;
+}
+
+.title-slide h5{
+    font: 18px;
+}
+
+.learn-dance{
+    margin: 30px 20px;
+    text-align: center;
+    position:relative;
+}
+
+.learn-img img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.text-learn {
+    color:white;
+    text-align: center;
+    position: absolute;
+    line-height: 1px;
+    left: 122px;
+    bottom: 20px;
+
+}
+
+.text-learn h3{
+    font-size: 30px;
+}
+
+.spotify-list{
+    height: 145px;
+}
+
+.spotify-list img{
+    width: 100%;
+}
+
+.spotify-text {
+    color:white;
+    text-align: center;
+    position: absolute;
+    left: 135px;
+    margin-top: 25px;
+}
+
+.spotify-text img{
+    width: 120px;
+}
+
+.spotify-text h4{
+    margin-top: 2px;
+
+}
+
+/*DADDY YANKEE*/
+
+.item-media img{
+    width: 65px;
+}
+
+.spotify-list-a1{
+    height: 145px;
+}
+
+.spotify-list-a1 img{
+    width: 100%;
+}
+
+.spotify-text-a1 {
+    color:black;
+    text-align: center;
+    position: absolute;
+    left: 135px;
+    margin-top: 25px;
+}
+
+.spotify-text-a1 img{
+    width: 7%;
+}
+
+.spotify-text-a1 h4{
+    margin-top: 2px;
+
+}
+
+.image-cover-d1{
+    background-image: url(../images/daddyyankee-2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    box-shadow: 1px 6px 10px -3px rgba(3, 3, 3, 0.55);
+    position: relative;
+}
+
