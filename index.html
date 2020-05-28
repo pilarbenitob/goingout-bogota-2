@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Página</title>
+    <meta name="author" content="Pilar Benito">
+    <meta name="description" content="Home - Going out Bogotá">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Going Out Bogotá</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="css/framework7.bundle.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!--    FUENTES ICONOS-->
+    <link rel="stylesheet" href="css/framework7-icons.css">
+    <!-- FUENTES TIPOGRÁFICAS -->
+    <link type="text/css" href="fonts/kumbh/stylesheet.css" rel="stylesheet">
+
+</head>
+
+
+<body>
+    <div id="app">
+        <div class="statudbar"></div>
+        <div class="view view-main">
+            <div class="page" data-name="home">
+
+                <!--BARRA SUPERIOR-->
+
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <a class="button panel-open" href="#" data-panel=".panel-left" id="barranav" href="#"><i class="f7-icons">bars</i></a>
+                        <a id="icon" clss="link" href="/home/"><img src="images/logo.jpg" alt="logo-app"></a>
+                    </div>
+                </div>
+
+                <!--BARRA DE HERRAMIENTAS-->
+                <div class="toolbar toolbar-bottom">
+                    <div class="toolbar-inner">
+                        <a href="#" class="link"><i class="f7-icons">house</i></a>
+                        <a href="#" class="link"><i class="f7-icons">arrow_turn_up_left</i></a>
+                    </div>
+                </div>
+
+                <!--CONTENIDO DE LA PÁGINA -->
+                <div class="page-content">
+
+                    <div class="fondo-index">
+
+                        <div class="panel panel-left panel-cover panel-resizable panel-init">
+                            <div class="block">
+                                <div class="fotoperfil">
+                                    <div class="contenedor-user">
+                                        <img src="images/form-user/user.jpg" alt="foto usuario">
+                                    </div>
+
+                                    <div class="textoperfil">
+                                        <p>Benny Bennet</p>
+                                        <p>32 years</p>
+                                    </div>
+                                </div>
+
+                                <p><a class="panel-close" href="/home/">Home</a>
+                                    <p><a class="panel-close" href="#">Places</a>
+                                        <p><a class="panel-close" href="#">Dance categories</a>
+                                            <p><a class="panel-close" href="/about/">About us</a>
+                                                <p><a class="link panel-close" href="/form/">Edit your profile</a>
+                                                    <p><a href="/pre-index/" class="button link panel-close" data-login-screen=".login-screen">Log out</a>
+
+                                                        <div class="textointegrantes">
+                                                            <p>Universidad Jorge Tadeo Lozano</p>
+                                                            <p>Docente: Gilberto Duque Ulloa</p><br>
+                                                            <p>Integrantes:</p>
+                                                            <p>Pilar Benito · Jenny Espitia · Felipe Lopera</p>
+                                                            <p>Aura Tejeda · Laura Zambrano</p>
+                                                        </div>
+
+                            </div>
+                        </div>
+
+                        <div class="discover-new">
+                            <h1>Discover<br>
+                                <span>NEW PLACES</span></h1>
+                        </div>
+
+                        <div class="contenedor-bares-slider">
+                            <div data-pagination='{"el": ".swiper-pagination"}' data-space-between="18" data-slides-per-view="2" class="swiper-container swiper-init demo-swiper">
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide">
+                                        <div class="cajagenero">
+                                            <a class="link" href="/andres/"><img src="images/discotecas/d1.png" alt=""></a>
+                                        </div>
+                                        Andrés Carne de Res<br><i class="f7-icons" id="estrella-slider-discotecas">star_fill</i>4.8
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="cajagenero">
+                                            <a class="link" href="/armando/"><img src="images/discotecas/d2.jpg" alt=""></a>
+                                        </div>
+                                        Armando Records<br><i class="f7-icons" id="estrella-slider-discotecas">star_fill</i>4.1
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="cajagenero">
+                                            <a class="link" href="/bandida/"><img src="images/discotecas/d3.jpg" alt=""></a>
+                                        </div>
+                                        Bandida<br><i class="f7-icons" id="estrella-slider-discotecas">star_fill</i>4.0
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="cajagenero">
+                                            <a class="link" href="/bungalow/"><img src="images/discotecas/d4.jpg" alt=""></a>
+                                        </div>
+                                        Bungalow<br><i class="f7-icons" id="estrella-slider-discotecas">star_fill</i>4.0
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="cajagenero">
+                                            <a class="link" href="/fabuloso/"><img src="images/discotecas/d5.jpg" alt=""></a>
+                                        </div>
+                                        El Fabuloso<br><i class="f7-icons" id="estrella-slider-discotecas">star_fill</i>3.8
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="cajagenero">
+                                            <a class="link" href="/gocepagano/"><img src="images/discotecas/d6.jpg" alt=""></a>
+                                        </div>
+                                        El Goce Pagano<br><i class="f7-icons" id="estrella-slider-discotecas">star_fill</i>4.5
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="cajagenero">
+                                            <a class="link" href="/theatron/"><img src="images/discotecas/d7.jpeg" alt=""></a>
+                                        </div>
+                                        Theatron<br><i class="f7-icons" id="estrella-slider-discotecas">star_fill</i>4.4
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="dance-categories">
+                            <h1>Dance<br>
+                                <span>CATEGORIES</span></h1>
+                        </div>
+
+
+                        <div class="contenedor-bailes-slider">
+                            <div data-pagination='{"el": ".swiper-pagination"}' data-space-between="18" data-slides-per-view="2" class="swiper-container swiper-init demo-swiper">
+                                <div class="swiper-pagination"></div>
+                                <div class="swiper-wrapper">
+
+                                    <div class="swiper-slide">
+                                        <div class="cajagenero">
+                                            <a class="link" href="/champeta/"><img src="images/dance-cards/champeta.jpg" alt=""></a>
+                                        </div>
+                                        CHAMPETA<br><i class="f7-icons" id="estrella-slider-discotecas">flag</i><span>Colombia</span>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="cajagenero">
+                                            <a class="link" href="/reggaeton/"><img src="images/dance-cards/reggaeton.jpg" alt=""></a>
+                                        </div>
+                                        REGGAETON<br><i class="f7-icons" id="estrella-slider-discotecas">flag</i><span>Puerto Rico</span>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="cajagenero">
+                                            <a class="link" href="/salsa/"><img src="images/dance-cards/salsa.jpg" alt=""></a>
+                                        </div>
+                                        SALSA<br><i class="f7-icons" id="estrella-slider-discotecas">flag</i><span>Puerto Rico</span>
+                                    </div>
+
+                                    <div class="swiper-slide">
+                                        <div class="cajagenero">
+                                            <a class="link" href="/twerk/"><img src="images/dance-cards/twerk.jpg" alt=""></a>
+                                        </div>
+                                        TWERK<br><i class="f7-icons" id="estrella-slider-discotecas">flag</i><span>New Jersey</span>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="about-container">
+                                <div class="logoabout"><a class="link" href="/about/"><img src="images/logoapp.svg" alt=""></a></div>
+                               <h1>About<br>
+                                <span>GOING OUT BOGOTÁ</span></h1>
+                        </div>
+                        
+                        <div class="espaciolibre"></div>
+                        
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="js/framework7.bundle.min.js"></script>
+    <script type="text/javascript" src="js/goingout.js"></script>
+</body>
+
+</html>
