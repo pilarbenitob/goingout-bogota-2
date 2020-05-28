@@ -663,13 +663,11 @@ font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #fff;
   color: #000;
 }
 .photo-slider .demo-swiper .swiper-slide {
   box-sizing: border-box;
   border: 1px solid #ddd;
-  background: #fff;
 }
 .photo-slider .demo-swiper {
   margin: 0px 0 35px;
