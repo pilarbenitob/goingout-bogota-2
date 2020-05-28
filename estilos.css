@@ -227,7 +227,7 @@ KUMBH REGULAR PÁRRAFOS:
 /*SLIDER BAILES*/
 
 .contenedor-bailes-slider{
-    width: 100%;
+  width: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -503,7 +503,7 @@ font-size: 25px;
   width: 30%;
 }
 
-.cajagenero{
+.contenedor-bares-slider-2 .cajagenero{
     width: 100%;
 }
 
@@ -521,6 +521,8 @@ font-size: 25px;
 }
 
 /*FIN SLIDER DISCOTECAS*/
+
+/*ACORDEON COLOR*/
 
 
 /*FIN INFO DISCOTECAS*/

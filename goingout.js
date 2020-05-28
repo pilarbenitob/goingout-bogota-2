@@ -2,9 +2,6 @@ var app = new Framework7({
     root: '#app',
     name: 'Going out Bogota',
     id: 'com.goingout',
-    panel: {
-        swipe: 'left',
-    },
 
     routes: [
         {
