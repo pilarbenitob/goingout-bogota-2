@@ -614,15 +614,17 @@ font-size: 25px;
 }
 
 .image-cover{
-    background-image: url(../images/reggaeton/cover-1.jpg);
-    background-position: center;
-    background-size: cover;
     width: 100%;
     height: 300px;
     box-shadow: 1px 6px 10px -3px rgba(3, 3, 3, 0.55);
     position: relative;
 }
 
+.image-cover img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
 
 .text-cover{
     position: absolute;
@@ -648,14 +650,14 @@ font-size: 25px;
     padding: 20px 30px;
 }
 
-.first-text P{
+.first-text p{
     text-align: justify;
     font-size: 15px;
     line-height: 23px;
 }
 
 
-.demo-swiper .swiper-slide {
+.photo-slider .demo-swiper .swiper-slide {
   font-size: 25px;
   font-weight: 300;
   display: flex;
@@ -664,23 +666,23 @@ font-size: 25px;
   background: #fff;
   color: #000;
 }
-.demo-swiper .swiper-slide {
+.photo-slider .demo-swiper .swiper-slide {
   box-sizing: border-box;
   border: 1px solid #ddd;
   background: #fff;
 }
-.demo-swiper {
+.photo-slider .demo-swiper {
   margin: 0px 0 35px;
   font-size: 18px;
   height: 120px;
 
 }
-.demo-swiper.demo-swiper-auto .swiper-slide {
+.photo-slider .demo-swiper.demo-swiper-auto .swiper-slide {
   width: 85%;
 
 }
 
-.swiper-slide img {
+.photo-slider .swiper-slide img {
   width: 100%;
     border-radius: 20px;;
 }
@@ -689,7 +691,6 @@ font-size: 25px;
     position: absolute;
     color: white;
     left: 6%;
-
 }
 
 .photo-slider{
