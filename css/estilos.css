@@ -655,7 +655,7 @@ font-size: 25px;
 }
 
 
-.demo-swiper .swiper-slide {
+.photo-slider .demo-swiper .swiper-slide {
   font-size: 25px;
   font-weight: 300;
   display: flex;
@@ -664,28 +664,28 @@ font-size: 25px;
   background: #fff;
   color: #000;
 }
-.demo-swiper .swiper-slide {
+.photo-slider .demo-swiper .swiper-slide {
   box-sizing: border-box;
   border: 1px solid #ddd;
   background: #fff;
 }
-.demo-swiper {
+.photo-slider .demo-swiper {
   margin: 0px 0 35px;
   font-size: 18px;
   height: 120px;
 
 }
-.demo-swiper.demo-swiper-auto .swiper-slide {
+.photo-slider .demo-swiper.demo-swiper-auto .swiper-slide {
   width: 85%;
 
 }
 
-.swiper-slide img {
+.photo-slider .swiper-slide img {
   width: 100%;
     border-radius: 20px;;
 }
 
-.photo-text{
+.photo-slider .photo-text{
     position: absolute;
     color: white;
     left: 6%;
