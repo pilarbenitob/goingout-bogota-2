@@ -111,6 +111,12 @@ var app = new Framework7({
             url: 'spanish.html',
       },
 
+        {
+            path: '/advertising/',
+            url: 'advertising.html',
+      },
+
+
     ]
 });
 
@@ -168,4 +174,5 @@ app.on('accordionOpened', function (el) {
   console.log(el);
 });
 
+/*ANIMATION*/
 

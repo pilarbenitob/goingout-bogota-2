@@ -642,9 +642,11 @@ KUMBH REGULAR PÁRRAFOS:
     box-shadow: 1px 6px 10px -3px rgba(3, 3, 3, 0.55);
     position: relative;
 }
+
 .spa {
     height: 205px;
 }
+
 .image-cover img {
     width: 100%;
 }
@@ -661,10 +663,11 @@ KUMBH REGULAR PÁRRAFOS:
     color: white;
 }
 
-.text-cover .lex{
+.text-cover .lex {
     top: 10%;
 }
-.text-cover .spa{
+
+.text-cover .spa {
     top: 80%;
 }
 
@@ -829,9 +832,11 @@ KUMBH REGULAR PÁRRAFOS:
     box-shadow: 1px 6px 10px -3px rgba(3, 3, 3, 0.55);
     position: relative;
 }
+
 #frau {
     height: 250px;
 }
+
 .image-cover-sho {
     background-position: center;
     background-size: cover;
@@ -840,7 +845,8 @@ KUMBH REGULAR PÁRRAFOS:
     box-shadow: 1px 6px 10px -3px rgba(3, 3, 3, 0.55);
     position: relative;
 }
-.image-cover-sho img{
+
+.image-cover-sho img {
     width: 100%;
 }
 
@@ -848,3 +854,12 @@ KUMBH REGULAR PÁRRAFOS:
     height: 197px;
 
 }
+
+/*  ANIMATION  */
+
+.anima {
+    margin: 0 auto;
+    background-color: black;
+    position: relative;
+}
+
