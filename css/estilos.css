@@ -795,11 +795,14 @@ font-size: 25px;
 }
 
 .image-cover-d1{
-    background-image: url(../images/daddyyankee-2.jpg);
-    background-position: center;
-    background-size: cover;
     width: 100%;
     height: 300px;
     box-shadow: 1px 6px 10px -3px rgba(3, 3, 3, 0.55);
     position: relative;
+}
+
+.image-cover-d1 img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
 }

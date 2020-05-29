@@ -81,6 +81,11 @@ var app = new Framework7({
             path: '/pre-index/',
             url: 'pre-index.html',
       },
+
+         {
+            path: '/daddyyankee/',
+            url: 'daddyyankee.html',
+      },
     ]
 });
 
