@@ -1,0 +1,145 @@
+#reproductor {
+    font-size: 15px;
+    line-height: 1.5em;
+    color: #fff;
+    background: linear-gradient(120deg, #000000 50%, #777777 120%);
+    height: 650px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+#audio-image {
+    position: relative;
+    overflow: hidden;
+    height: 210px;
+    margin-bottom: 20px;
+}
+
+#audio-image .audio-cover {
+    width: 100%;
+}
+
+#audio-info {
+    text-align: center;
+}
+
+#audio-info .artist {
+    font-weight: bold;
+}
+
+input#volume {
+    width: 95%;
+    margin-left: 2%;
+    -webkit-appearance: none !important;
+    background: #ccc;
+    height: 1px;
+    margin-bottom: 20px;
+}
+
+
+#buttons {
+    display: block;
+    margin: 15px auto;
+    overflow: auto;
+}
+
+button#play {
+    width: 70px;
+    height: 70px;
+    background: url(../images/play.png) no-repeat;
+    float: left;
+    margin-left: -5px;
+    border: none;
+    outline: none;
+}
+
+button#pause {
+    width: 70px;
+    height: 70px;
+    background: url(../images/pause.png) no-repeat;
+    float: left;
+    margin-left: 5px;
+        border: none;
+  outline: none;
+}
+
+button#stop {
+    width: 70px;
+    height: 70px;
+    background: url(../images/stop.png) no-repeat;
+    float: left;
+    margin-left: 5px;
+        border: none;
+  outline: none;
+
+}
+
+button#prev {
+    width: 70px;
+    height: 70px;
+    background: url(../images/prev.png) no-repeat;
+    float: left;
+    margin-top: 17px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+}
+
+button#next {
+    width: 70px;
+    height: 70px;
+    background: url(../images/next.png) no-repeat;
+    float: right;
+    margin-top: 17px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+
+}
+
+#tracker {
+    position: relative;
+    width: 100%;
+}
+
+#progress-bar {
+    width: 80%;
+    margin-left: 2%;
+    margin-bottom: 20px;
+    margin-top: 9px;
+    height: 10px;
+    background: url(../images/progress_bg.png) no-repeat;
+    float: left;
+}
+
+#progress {
+    background: url(../images/progress.png) no-repeat;
+    height: 10px;
+    display: inline-block;
+}
+
+#duration {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    padding: 4px 8px;
+    background: #000;
+    border-radius: 5px;
+}
+
+#playlist {
+    list-style: none;
+}
+
+#playlist li {
+    cursor: pointer;
+    margin: 12px;
+}
+
+#playlist li.active {
+    padding: 3px;
+    background: #ad82ff;
+}

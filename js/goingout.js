@@ -81,6 +81,15 @@ var app = new Framework7({
             path: '/pre-index/',
             url: 'pre-index.html',
       },
+         {
+            path: '/media/',
+            url: 'mediaplayer.html',
+      },
+
+        {
+            path: '/nastya/',
+            url: 'nastya.html',
+      },
     ]
 });
 
@@ -137,3 +146,5 @@ app.on('accordionOpened', function (el) {
   console.log('The following element opened:');
   console.log(el);
 });
+
+
