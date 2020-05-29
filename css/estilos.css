@@ -769,9 +769,20 @@ font-size: 25px;
     font-size:25px;
 }
 
+.item-content{
+    padding-bottom: 10px;
+}
+
+.item-media{
+    width: 65px;
+    height: 65px;
+
+}
 
 .item-media img{
-    width: 65px;
+    width: 100%;
+    height: 65px;
+    object-fit: cover;
 
 }
 
