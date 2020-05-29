@@ -763,14 +763,16 @@ font-size: 25px;
 
 }
 
-/*DADDY YANKEE*/
+/*ARTISTAS TODOS*/
 
 .text-cover .d1 h3{
     font-size:25px;
 }
 
+
 .item-media img{
     width: 65px;
+
 }
 
 .spotify-list-a1{
@@ -813,4 +815,8 @@ font-size: 25px;
     width: 100%;
     height: 300px;
     object-fit: cover;
+}
+
+.swiper-slide img{
+    border-radius: 20px;
 }

@@ -83,8 +83,28 @@ var app = new Framework7({
       },
 
          {
+            path: '/reggaeton/',
+            url: 'reggaeton.html',
+      },
+
+         {
             path: '/daddyyankee/',
             url: 'daddyyankee.html',
+      },
+
+         {
+            path: '/badbunny/',
+            url: 'badbunny.html',
+      },
+
+          {
+            path: '/jbalvin/',
+            url: 'jbalvin.html',
+      },
+
+        {
+            path: '/ivyqueen/',
+            url: 'ivyqueen.html',
       },
     ]
 });
