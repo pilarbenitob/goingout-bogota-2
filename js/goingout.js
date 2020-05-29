@@ -90,6 +90,27 @@ var app = new Framework7({
             path: '/nastya/',
             url: 'nastya.html',
       },
+
+         {
+            path: '/fraules/',
+            url: 'fraules.html',
+      },
+
+        {
+            path: '/shoshina/',
+            url: 'shoshina.html',
+      },
+
+        {
+            path: '/lexy/',
+            url: 'lexy.html',
+      },
+
+         {
+            path: '/spanish/',
+            url: 'spanish.html',
+      },
+
     ]
 });
 

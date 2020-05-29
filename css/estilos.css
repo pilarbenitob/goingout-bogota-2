@@ -635,15 +635,19 @@ KUMBH REGULAR PÁRRAFOS:
 }
 
 .image-cover {
-    background-image: url(../images/twerk-images/twerk-azul.png);
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 300px;
+    height: 210px;
     box-shadow: 1px 6px 10px -3px rgba(3, 3, 3, 0.55);
     position: relative;
 }
-
+.spa {
+    height: 205px;
+}
+.image-cover img {
+    width: 100%;
+}
 
 .text-cover {
     position: absolute;
@@ -657,12 +661,28 @@ KUMBH REGULAR PÁRRAFOS:
     color: white;
 }
 
+.text-cover .lex{
+    top: 10%;
+}
+.text-cover .spa{
+    top: 80%;
+}
+
+
 .text-cover h3 {
     font-size: 30px;
 }
 
-.text-cover h5 {
+.lex h3 {
+    font-size: 25px;
+}
+
+.spa h3 {
     font-size: 18px;
+}
+
+.text-cover h5 {
+    font-size: 15px;
 }
 
 .first-text {
@@ -701,18 +721,20 @@ KUMBH REGULAR PÁRRAFOS:
 
 .demo-swiper.demo-swiper-auto .swiper-slide {
     width: 85%;
-
+    background-color: #77a9dc;
+    border: none;
 }
+
 
 .swiper-slide img {
     width: 100%;
     border-radius: 20px;
-    ;
+
 }
 
 .photo-text {
     position: absolute;
-    color: white;
+    color: #ffffff;
     left: 6%;
 
 }
@@ -789,196 +811,40 @@ KUMBH REGULAR PÁRRAFOS:
 
 }
 
-/*DADDY YANKEE*/
+/*ARTISTA*/
 
 .item-media img {
     width: 65px;
 }
 
-.spotify-list-a1 {
-    height: 145px;
-}
-
-.spotify-list-a1 img {
-    width: 100%;
-}
-
-.spotify-text-a1 {
+#fondo-blanco {
     color: black;
-    text-align: center;
-    position: absolute;
-    left: 135px;
-    margin-top: 25px;
 }
 
-.spotify-text-a1 img {
-    width: 7%;
-}
-
-.spotify-text-a1 h4 {
-    margin-top: 2px;
-
-}
-
-.image-cover-d1 {
-    background-image: url(../images/daddyyankee-2.jpg);
+.image-cover-na {
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 300px;
+    height: 250px;
     box-shadow: 1px 6px 10px -3px rgba(3, 3, 3, 0.55);
     position: relative;
 }
-
-
-/*
-   REPRODUCTOR DE MUSICA
-
-
-#reproductor {
-    font-size: 15px;
-    line-height: 1.5em;
-    color: #fff;
-    background: linear-gradient(120deg, #000000 50%, #777777 120%);
-    height: 650px;
+#frau {
+    height: 250px;
 }
-
-.clearfix {
-    clear: both;
-}
-
-
-#audio-image {
+.image-cover-sho {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 330px;
+    box-shadow: 1px 6px 10px -3px rgba(3, 3, 3, 0.55);
     position: relative;
-    overflow: hidden;
-    height: 210px;
-    margin-bottom: 20px;
 }
-
-#audio-image .audio-cover {
+.image-cover-sho img{
     width: 100%;
 }
 
-#audio-info {
-    text-align: center;
-}
-
-#audio-info .artist {
-    font-weight: bold;
-}
-
-input#volume {
-    width: 95%;
-    margin-left: 2%;
-    -webkit-appearance: none !important;
-    background: #ccc;
-    height: 1px;
-    margin-bottom: 20px;
-}
-
-
-#buttons {
-    display: block;
-    margin: 15px auto;
-    overflow: auto;
-}
-
-button#play {
-    width: 70px;
-    height: 70px;
-    background: url(../images/media-player/play.png) no-repeat;
-    float: left;
-    margin-left: -5px;
-    border: none;
-    outline: none;
-}
-
-button#pause {
-    width: 70px;
-    height: 70px;
-    background: url(../images/media-player/pause.png) no-repeat;
-    float: left;
-    margin-left: 5px;
-        border: none;
-  outline: none;
-}
-
-button#stop {
-    width: 70px;
-    height: 70px;
-    background: url(../images/media-player/stop.png) no-repeat;
-    float: left;
-    margin-left: 5px;
-        border: none;
-  outline: none;
+.lex {
+    height: 197px;
 
 }
-
-button#prev {
-    width: 70px;
-    height: 70px;
-    background: url(../images/media-player/prev.png) no-repeat;
-    float: left;
-    margin-top: 17px;
-    margin-left: 10px;
-    border: none;
-    outline: none;
-}
-
-button#next {
-    width: 70px;
-    height: 70px;
-    background: url(../images/media-player/next.png) no-repeat;
-    float: right;
-    margin-top: 17px;
-    margin-left: 10px;
-    border: none;
-    outline: none;
-
-}
-
-#tracker {
-    position: relative;
-    width: 100%;
-}
-
-#progress-bar {
-    width: 80%;
-    margin-left: 2%;
-    margin-bottom: 20px;
-    margin-top: 9px;
-    height: 10px;
-    background: url(../images/media-player/progress_bg.png) no-repeat;
-    float: left;
-}
-
-#progress {
-    background: url(../images/media-player/progress.png) no-repeat;
-    height: 10px;
-    display: inline-block;
-}
-
-#duration {
-    position: absolute;
-    top: 0;
-    right: 10px;
-    padding: 4px 8px;
-    background: #000;
-    border-radius: 5px;
-}
-
-#playlist {
-    list-style: none;
-}
-
-#playlist li {
-    cursor: pointer;
-    margin: 7px;
-}
-
-#playlist li.active {
-    font-weight: bold;
-    padding: 3px;
-    background: #666;
-}
-*/
