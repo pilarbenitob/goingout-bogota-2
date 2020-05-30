@@ -731,6 +731,7 @@ font-size: 25px;
     line-height: 1px;
     left: 122px;
     bottom: 20px;
+    z-index: 100
 
 }
 
