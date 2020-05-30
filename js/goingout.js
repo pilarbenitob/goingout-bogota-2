@@ -2,7 +2,13 @@ var app = new Framework7({
     root: '#app',
     name: 'Going out Bogota',
     id: 'com.goingout',
+<<<<<<< HEAD
 
+=======
+    panel: {
+
+    },
+>>>>>>> origin/master
 
     routes: [
         {
@@ -104,6 +110,13 @@ var app = new Framework7({
             path: '/ivyqueen/',
             url: 'ivyqueen.html',
       },
+
+        {
+            path: '/niveles/',
+            url: 'niveles.html',
+      },
+
+
     ]
 });
 
