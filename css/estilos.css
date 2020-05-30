@@ -105,6 +105,63 @@ KUMBH REGULAR PÁRRAFOS:
     --f7-panel-bg-color: rgb(26, 26, 26);
 }
 
+/*DESPLEGABLES ACORDEON DE PLACES Y DANCE CATEGORIES*/
+
+.acordeon-places-menu ul{
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+
+.acordeon-places-menu ul li{
+    list-style-type: none;
+}
+
+.acordeon-places-menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 4px;
+    transition: all .2s;
+}
+
+.acordeon-dances-menu ul li a:hover{
+    text-decoration: none;
+    color: yellow;
+    padding-bottom: 5px;
+    transition: all .2s;
+}
+
+
+
+
+.acordeon-dances-menu ul{
+    padding: 0;
+    margin-top: -10px;
+    margin-bottom: 30px;
+}
+
+.acordeon-dances-menu ul li{
+    list-style-type: none;
+}
+
+.acordeon-dances-menu ul li a{
+    text-decoration: none;
+    color: white;
+    padding-bottom: 4px;
+    transition: all .2s;
+}
+
+.acordeon-places-menu ul li a:hover{
+    text-decoration: none;
+    color: lightpink;
+    padding-bottom: 5px;
+    transition: all .2s;
+}
+
+
+
+/*FIN DESPLEGABLES ACORDEON DE PLACES Y DANCE CATEGORIES*/
+
 /*FIN MENU*/
 
 /*FIN BARRA SUPERIOR*/
@@ -843,7 +900,7 @@ KUMBH REGULAR PÁRRAFOS:
     object-fit: cover;
 }
 
-.swiper-slide img {
+.image-cover-d1 .swiper-slide img {
     border-radius: 20px;
 }
 
