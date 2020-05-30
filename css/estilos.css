@@ -1254,3 +1254,20 @@ KUMBH REGULAR PÁRRAFOS:
     font-size: 15px;
     padding: 0px 0 30px;
 }
+
+/* NIVELES CHAMPETA */
+
+
+.levels-background-amarillo {
+    background-image: url(../images/niveles/fondovideos-amarillo.jpg);
+    background-position: left;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.text-video-begin .texto-vid-black{
+    color: black;
+    font-family: 'kumbh_sansregular';
+    font-size: 18px;
+}
+

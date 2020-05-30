@@ -12,6 +12,52 @@ var app = new Framework7({
       },
 
         {
+            path: '/champeta-niveles/',
+            url: 'champeta-niveles.html',
+      },
+
+     {
+            path: '/kevin/',
+            url: 'kevin.html',
+      },
+
+     {
+            path: '/mrblack/',
+            url: 'mrblack.html',
+      },
+
+     {
+            path: '/luis/',
+            url: 'luis.html',
+      },
+
+     {
+            path: '/papo/',
+            url: 'papo.html',
+      },
+
+     {
+            path: '/elio/',
+            url: 'elio.html',
+      },
+
+    {
+            path: '/champeta-begin/',
+            url: 'champeta-begin.html',
+      },
+
+    {
+            path: '/champeta-mid/',
+            url: 'champeta-mid.html',
+      },
+
+    {
+            path: '/champeta-ad/',
+            url: 'champeta-ad.html',
+      },
+
+
+        {
             path: '/andres/',
             url: 'andres.html',
       },
