@@ -310,8 +310,6 @@ var mainView = app.views.create('.view-main');
 
 /*PANEL MENU*/
 
-var app = new Framework7();
-
 var $$ = Dom7;
 
 // Dom Events
@@ -341,11 +339,6 @@ var swiper = app.swiper.create('.swiper-container', {
 var swiper = app.swiper.get('.swiper-container');
 
 swiper.slideNext();
-
-
-var app = new Framework7();
-
-var $ = Dom7;
 
 $('.accordion-item').on('accordion:opened', function () {
   app.dialog.alert('Accordion item opened');
