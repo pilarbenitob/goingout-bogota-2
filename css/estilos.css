@@ -611,9 +611,8 @@ KUMBH REGULAR PÁRRAFOS:
 /*PRE INDEX*/
 
 .fondo-preindex {
-    height: 100vh;
     background-image: url(../images/black-bg.jpg);
-    background-position: center;
+    background-position: right;
     background-attachment: fixed;
     background-size: cover;
 }
@@ -771,8 +770,6 @@ KUMBH REGULAR PÁRRAFOS:
 
 .photo-slider .swiper-slide img {
     width: 100%;
-    border-radius: 20px;
-    ;
 }
 
 .photo-slider .photo-text {
@@ -781,7 +778,7 @@ KUMBH REGULAR PÁRRAFOS:
     left: 6%;
 }
 
-.photo-slider {
+.photo-slider{
     background-color: black;
     height: 260px;
     padding: 5px 0px;
@@ -927,22 +924,203 @@ KUMBH REGULAR PÁRRAFOS:
     border-radius: 20px;
 }
 
-/*NIVELES TARJETAS*/
 
 
-.levels-background{
-    background-image: url(../images/niveles/fondo-niveles.jpg);
+/*REGGAETON-ADVANCED*/
+
+
+.reggaeton-advanced-bg {
+    background-image: url(../images/niveles/fondovideos.jpg);
     background-position: left;
     background-attachment: fixed;
     background-size: cover;
+
+}
+
+.firstlevelvideo-card .card {
+    background: linear-gradient(70deg, #CEFF3F, #0037BF);
+    border-radius: 15px;
+    height: 67px;
+    padding: 15px 0px 35px;
+    box-shadow: 1px 6px 10px -3px rgba(3, 3, 3, 0.55);
+}
+
+.secondlevelvideo-card .card {
+    background: linear-gradient(70deg, #DB00E9, #E96E00);
+    border-radius: 15px;
+    height: 67px;
+    padding: 15px 0px 35px;
+    box-shadow: 1px 6px 10px -3px rgba(3, 3, 3, 0.55);
+}
+
+.thirdlevelvideo-card .card {
+    background: linear-gradient(70deg, #FF0E00, #00AA8F);
+    border-radius: 15px;
+    height: 67px;
+    padding: 15px 0px 35px;
+    box-shadow: 1px 6px 10px -3px rgba(3, 3, 3, 0.55);
+}
+
+.video-box {
+    margin-top: 20px;
+    box-shadow: 1px 6px 10px -3px rgba(3, 3, 3, 0.55);
+}
+
+.video-box iframe {
+    width: 100%
+}
+
+.text-video-advanced {
+    padding: 20px 25px 5px;
+}
+
+.title-advanced h2 {
+    color: white;
+    font-family: 'kumbh_sansbold';
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.paragraph-advanced p {
+    color: white;
+    font-family: 'kumbh_sansregular';
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: justify
+}
+
+.link-advanced {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.link-advanced h2 {
+    color: #9E005D;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.42)
+}
+
+
+.linkto-coreographys {
+    height: 145px;
+    text-align: center;
+
+}
+
+.linkto-coreographys img {
+    width: 100%;
+}
+
+.row {
+    text-align: center;
+    position: absolute;
+    left: 23%;
+    margin-top: 50px;
+    border-radius: 4px;
+    color: white;
+}
+
+
+/*POPUP COREOGRAPHYS*/
+
+.popup-content-r {
+    margin: 50px 30px;
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+.popup-content-r p {
+    color: white;
+    font-family: 'kumbh_sansregular';
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: justify
+}
+
+.options-popup {
+    display: block;
+    ;
+    margin: 20px 10px;
+
+}
+
+.first-b {
+    margin-bottom: 30px;
+}
+
+.first-b a {
+    color: white;
+    font-family: 'kumbh_sansregular';
+    letter-spacing: 1px;
+    font-size: 13px;
+    text-align: justify;
+
+
+}
+
+/*COREOGRAPHYS*/
+
+.teacher-text {
+    margin-top: 5px;
+    padding: 10px 30px;
+    color: #9E005D
+}
+
+.teacher-text p {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 23px;
+}
+
+
+.coreo {
+    background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+.coreo h2 {
+    color: white;
+    font-family: 'kumbh_sansbold';
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-left: 15px;
+    padding-top: 20px;
+    text-align: left;
+
+}
+
+
+.coreo iframe {
+    width: 95%
+}
+
+
+/*NIVELES TARJETAS*/
+
+
+.levels-background {
+    background-image: url(../images/niveles/fondo-niveles.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 
 .firstlevel-card,
 .secondlevel-card,
-.thirdlevel-card {
+.thirdlevel-card,
+.firstlevelvideo-card,
+.secondlevelvideo-card,
+.thirdlevelvideo-card {
     padding: 20px 10px;
 
 }
+
 
 .firstlevel-card .card {
     background: linear-gradient(70deg, #CEFF3F, #0037BF);

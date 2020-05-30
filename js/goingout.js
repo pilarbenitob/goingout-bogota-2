@@ -100,6 +100,26 @@ var app = new Framework7({
             url: 'joe.html',
       },
 
+        {
+            path: '/niveles-salsa/',
+            url: 'niveles-salsa.html',
+      },
+
+        {
+            path: '/salsa-begginers/',
+            url: 'salsa-begginers.html',
+      },
+
+        {
+            path: '/salsa-middle/',
+            url: 'salsa-middle.html',
+      },
+
+        {
+            path: '/salsa-advanced/',
+            url: 'salsa-advanced.html',
+      },
+
          {
             path: '/reggaeton/',
             url: 'reggaeton.html',
@@ -123,6 +143,34 @@ var app = new Framework7({
         {
             path: '/ivyqueen/',
             url: 'ivyqueen.html',
+      },
+
+        {
+            path: '/niveles-reggaeton/',
+            url: 'niveles-reggaeton.html',
+      },
+
+
+         {
+            path: '/reggaeton-begginers/',
+            url: 'reggaeton-begginers.html',
+      },
+
+         {
+            path: '/reggaeton-middle/',
+            url: 'reggaeton-middle.html',
+      },
+
+        {
+            path: '/reggaeton-advanced/',
+            url: 'reggaeton-advanced.html',
+      },
+
+
+
+         {
+            path: '/coreographys/',
+            url: 'coreographys.html',
       },
 
         {
