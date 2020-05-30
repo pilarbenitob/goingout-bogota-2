@@ -137,20 +137,55 @@ var app = new Framework7({
             url: 'spanish.html',
       },
 
+             {
+            path: '/niveles-twerk/',
+            url: 'niveles-twerk.html',
+      },
         {
-            path: '/begginers/',
+            path: '/twerk-begginers/',
             url: 'twerk-begginers.html',
       },
 
+            {
+            path: '/twerk-begginers-dos/',
+            url: 'twerk-begginers-dos.html',
+      },
+           {
+            path: '/twerk-begginers-tres/',
+            url: 'twerk-begginers-tres.html',
+      },
+
          {
-            path: '/middle/',
+            path: '/twerk-middle/',
             url: 'twerk-middle.html',
       },
 
         {
-            path: '/advanced/',
+            path: '/twerk-middle-dos/',
+            url: 'twerk-middle-dos.html',
+      },
+
+      {
+            path: '/twerk-middle-tres/',
+            url: 'twerk-middle-tres.html',
+      },
+
+        {
+            path: '/twerk-advanced/',
             url: 'twerk-advanced.html',
       },
+
+       {
+            path: '/twerk-advanced-dos/',
+            url: 'twerk-advanced-dos.html',
+      },
+
+    {
+            path: '/twerk-advanced-tres/',
+            url: 'twerk-advanced-tres.html',
+      },
+
+
     ]
 });
 
