@@ -111,6 +111,8 @@ var app = new Framework7({
             path: '/niveles/',
             url: 'niveles.html',
       },
+
+
     ]
 });
 
