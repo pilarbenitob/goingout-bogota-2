@@ -664,8 +664,6 @@ font-size: 25px;
   justify-content: center;
   align-items: center;
   color: #000;
-
-
 }
 .photo-slider .demo-swiper .swiper-slide {
   box-sizing: border-box;
@@ -684,6 +682,7 @@ font-size: 25px;
 
 .photo-slider .swiper-slide img {
   width: 100%;
+    border-radius: 0px;
 }
 
 .photo-slider .photo-text{
